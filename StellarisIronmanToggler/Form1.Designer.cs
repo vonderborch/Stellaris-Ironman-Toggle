@@ -1,4 +1,6 @@
-﻿namespace Toggler
+﻿using System.Windows.Forms;
+
+namespace StellarisIronmanToggler
 {
     partial class Form1
     {

@@ -1,7 +1,12 @@
 using System.IO.Compression;
 using System.Text;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Windows.Forms;
 
-namespace Toggler
+namespace StellarisIronmanToggler
 {
     public partial class Form1 : Form
     {

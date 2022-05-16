@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toggler", "Toggler\Toggler.csproj", "{FB16EF0A-B272-499A-922F-95302EB4FDD2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{125BADFC-2490-4D87-A43D-458FF03EC41C}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StellarisIronmanToggler", "StellarisIronmanToggler\StellarisIronmanToggler.csproj", "{67C15F31-C6E4-4C59-9AE2-40806B925658}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +19,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FB16EF0A-B272-499A-922F-95302EB4FDD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FB16EF0A-B272-499A-922F-95302EB4FDD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FB16EF0A-B272-499A-922F-95302EB4FDD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FB16EF0A-B272-499A-922F-95302EB4FDD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67C15F31-C6E4-4C59-9AE2-40806B925658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C15F31-C6E4-4C59-9AE2-40806B925658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67C15F31-C6E4-4C59-9AE2-40806B925658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67C15F31-C6E4-4C59-9AE2-40806B925658}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
